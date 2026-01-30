@@ -7,13 +7,13 @@ The dataset, originally composed of 13 CSV files representing Cyclistic’s hist
 ## Data Appending
 Data from October 2024 to October 2025 were appended vertically using SQL queries in Google BigQuery, producing a table covering the full study period.
 
-# Data Cleaning and Transformation
+## Data Cleaning and Transformation
 The appended table underwent the following preprocessing: standardization of date and timestamp formats, removal of duplicate records and null values, cleaning of extra spaces (string-formatted fields), and type casting for numeric fields.
 
-# Final Dataset Structure (Cleaned and Analysis-ready)
+## Final Dataset Structure (Cleaned and Analysis-ready)
 The final dataset provided here is a single CSV file containing approximately 6,026,000 rows and includes the following columns: ride_id, bike_type, ride_duration_minutes, user_type, ride_date, ride_month, ride_day_of_week, ride_hour_of_day. This dataset is cleaned and analysis-ready and can be used for tasks such as visualization, exploratory data analysis, or studying ride patterns by customer type. 
 
-# Visualization
+## Visualization
 The dataset was used to create an interactive Tableau Public Story (including two dashboards), which illustrates trends and patterns in Cyclistic bike rides. View the Tableau Story [here](https://public.tableau.com/views/CasestudyCyclisticBike-shareAnalysis/CyclisticRideAnalysis?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link). Note: Some column names in this dataset may differ from those shown in the Tableau dashboards/story. For example, “ride_length” in Tableau is called “ride_duration_minutes” in the CSV, or “rideable_type” in Tableau is called “user_type” in the CSV. This ensures CSV has been cleaned and standardized for analysis.
 
 In addition, a notebook was created in Kaggle. View the Kaggle Notebook [here](https://www.kaggle.com/code/salehireza2083/cyclistic-rides-patterns-visualizations)
