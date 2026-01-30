@@ -16,5 +16,5 @@ The final dataset provided here is a single CSV file containing approximately 6,
 ## Visualization
 The dataset was used to create an interactive Tableau Public Story (including two dashboards), which illustrates trends and patterns in Cyclistic bike rides. View the Tableau Story [here](https://public.tableau.com/shared/4XW2SHT7T?:display_count=n&:origin=viz_share_link). Note: Some column names in this dataset may differ from those shown in the Tableau dashboards/story. For example, the CSV column “ride_length” is labeled as “Ride Duration” in Tableau, or the CSV column “rideable_type” is labeled as “Bike Type” in Tableau. These changes were made to improve readability and visualization in Tableau.
 
-In addition, a notebook was created in Kaggle. View the Kaggle Notebook [here](https://www.kaggle.com/code/salehireza2083/cyclistic-rides-patterns-visualizations)
+In addition, a notebook (in R Language) was created in Kaggle. View the Kaggle Notebook [here](https://www.kaggle.com/code/salehireza2083/cyclistic-rides-patterns-visualizations)
 
